@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import List from './List.js'
 
-class ListsContainer extends Component {
+class TodoApp extends Component {
   constructor(props){
     super(props)
 
@@ -65,4 +65,4 @@ class ListsContainer extends Component {
   }
 }
 
-export default ListsContainer
+export default TodoApp

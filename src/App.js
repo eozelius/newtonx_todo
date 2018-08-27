@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
-import ListsContainer from './components/ListsContainer'
+import TodoApp from './components/TodoApp'
 
 const App = (props) => {
   return (
@@ -11,7 +11,7 @@ const App = (props) => {
         <h1 className="App-title">NewtonX Todo</h1>
       </header>
 
-      <ListsContainer />
+      <TodoApp />
     </div>
   )
 }
